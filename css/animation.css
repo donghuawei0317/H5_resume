@@ -1,0 +1,302 @@
+/* 来自上方 */
+
+.fromTop01-5 {
+    animation: fromTop 1s linear .1s 1 forwards;
+}
+
+@keyframes fromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-5rem)
+    }
+    50% {
+        opacity: .5;
+        transform: translateY(-2.5rem)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+
+/* 来自下方 */
+
+.fromBottom01-5 {
+    animation: fromBottom 1s linear .1s 1 forwards;
+}
+
+.fromBottom15-5 {
+    animation: fromBottom 1s linear 1.5s 1 forwards;
+}
+
+@keyframes fromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(5rem)
+    }
+    50% {
+        opacity: .5;
+        transform: translateY(2.5rem)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+
+/* 来自右边 */
+
+.fromRight05-5 {
+    animation: fromRight 1s linear .5s 1 forwards;
+}
+
+.fromRight10-5 {
+    animation: fromRight 1s linear 1s 1 forwards;
+}
+
+.fromRight15-5 {
+    animation: fromRight 1s linear 1.5s 1 forwards;
+}
+
+.fromRight20-5 {
+    animation: fromRight 1s linear 2s 1 forwards;
+}
+
+.fromRight25-5 {
+    animation: fromRight 1s linear 2.5s 1 forwards;
+}
+
+@keyframes fromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(5rem)
+    }
+    50% {
+        opacity: .5;
+        transform: translateX(2.5rem)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+
+/* 来自左边 */
+
+.fromLeft01-5 {
+    animation: fromLeft 1s linear .1s 1 forwards;
+}
+
+.fromLeft25-5 {
+    animation: fromLeft 1s linear 2.5s 1 forwards;
+}
+
+@keyframes fromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-5rem)
+    }
+    50% {
+        opacity: .5;
+        transform: translateX(-2.5rem)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* 来自下方 放大 */
+
+.bottomScale30-5 {
+    animation: bottomScale 1s linear 3s 1 forwards;
+}
+
+@keyframes bottomScale {
+    0% {
+        opacity: 0;
+        transform: translateY(5rem) scale(.1);
+    }
+    50% {
+        opacity: .5;
+        transform: translateY(2.5rem) scale(.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translareY(0) scale(1);
+    }
+}
+
+
+/* 放大 */
+
+._scale05 {
+    animation: _scale 1s linear .5s 1 forwards;
+}
+
+._scale10 {
+    animation: _scale 1s linear 1s 1 forwards;
+}
+
+._scale15 {
+    animation: _scale 1s linear 1.5s 1 forwards;
+}
+
+._scale20 {
+    animation: _scale 1s linear 2s 1 forwards;
+}
+
+@keyframes _scale {
+    0% {
+        opacity: 0;
+        transform: scale(.1);
+    }
+    50% {
+        opacity: .5;
+        transform: scale(.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* 旋转 放大 */
+
+.rotateScale05 {
+    animation: rotateScale 1s linear .5s 1 forwards;
+}
+
+.rotateScale10 {
+    animation: rotateScale 1s linear 1s 1 forwards;
+}
+
+.rotateScale15 {
+    animation: rotateScale 1s linear 1.5s 1 forwards;
+}
+
+.rotateScale20 {
+    animation: rotateScale 1s linear 2s 1 forwards;
+}
+
+.rotateScale25 {
+    animation: rotateScale 1s linear 2.5s 1 forwards;
+}
+
+@keyframes rotateScale {
+    0% {
+        opacity: 0;
+        transform: rotate(359deg) scale(.1);
+    }
+    50% {
+        opacity: .5;
+        transform: rotate(180deg) scale(.5);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+    }
+}
+
+
+/* 从右,弹动 */
+
+.fromRightSpring05-35 {
+    animation: fromRightSpring 2s ease-in-out .5s 1 forwards;
+}
+
+.fromRightSpring10-35 {
+    animation: fromRightSpring 2s ease-in-out 1s 1 forwards;
+}
+
+.fromRightSpring15-35 {
+    animation: fromRightSpring 2s ease-in-out 1.5s 1 forwards;
+}
+
+.fromRightSpring20-35 {
+    animation: fromRightSpring 2s ease-in-out 2s 1 forwards;
+}
+
+.fromRightSpring25-35 {
+    animation: fromRightSpring 2s ease-in-out 2.5s 1 forwards;
+}
+
+@keyframes fromRightSpring {
+    0% {
+        opacity: 0;
+        transform: translateX(3.5rem);
+    }
+    30% {
+        opacity: .4;
+        transform: translateX(0);
+    }
+    55% {
+        opacity: .8;
+        transform: translateX(1rem);
+    }
+    75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    90% {
+        opacity: 1;
+        transform: translateX(.3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* 人物动画 */
+
+@keyframes ren1 {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -1360px 0
+    }
+}
+
+@keyframes ren {
+    0% {
+        transform: translate(500px, -50px) scale(.3);
+    }
+    100% {
+        transform: translate(-600px, -50px) scale(.3);
+    }
+}
+
+@keyframes ren2 {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -1600px 0
+    }
+}
+
+@keyframes ren3 {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -1600px 0
+    }
+}
+
+@keyframes ren4 {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: -1680px 0
+    }
+}
